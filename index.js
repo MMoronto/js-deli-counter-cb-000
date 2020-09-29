@@ -17,8 +17,10 @@ function currentLine(array) {
 
 function nowServing(array) {
   if (!array.length) {
-    return "The line is currently empty."
+    return "There is nobody waiting to be served!"
   }  
+  
+  return `Currently serving ${array.shift()}.`
 }
 
 function takeANumber(array, name) {
