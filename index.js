@@ -16,7 +16,9 @@ function currentLine(array) {
 
 
 function nowServing(array) {
-  
+  if (!array.length) {
+    return "The line is currently empty."
+  }  
 }
 
 function takeANumber(array, name) {
