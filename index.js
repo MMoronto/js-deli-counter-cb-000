@@ -1,9 +1,6 @@
 var katzDeliLine = [];
 
 
-function nowServing(line) {
-  
-}
 
 function currentLine(line) {
   if (!line.length) {
@@ -14,6 +11,10 @@ function currentLine(line) {
   for (let i = 0; i < array.length; i++ )
 }
 
+
+function nowServing(line) {
+  
+}
 
 function takeANumber(line, name) {
   for (let i = 0; i < array.length; i++) {
