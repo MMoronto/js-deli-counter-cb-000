@@ -1,15 +1,20 @@
 var katzDeliLine = [];
 
-function takeANumber(katzDeliLine, name) {
+function takeANumber(line, name) {
   for (let i = 0; i < array.length; i++) {
     array.push(`Welcome, ${name[i]}. You are number${ i + 1 } in line.`)
   }
 }
 
-function nowServing(katzDeliLine) {
+function nowServing(line) {
   
 }
 
-function currentLine(katzDeliLine) {
+function currentLine(line) {
+  if (!line.length) {
+    return "The line is currently empty."
+  }
+  const numbersAndNames = []
   
+  for (let i = 0; i < array.length; i++ )
 }
