@@ -3,7 +3,7 @@ var katzDeliLine = [];
 
 
 function currentLine(array) {
-  if (!line.length) {
+  if (!array.length) {
     return "The line is currently empty."
   }
   const numbersAndNames = []
