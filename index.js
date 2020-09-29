@@ -25,6 +25,6 @@ function nowServing(array) {
 
 function takeANumber(array, name) {
   array.push(name)
-    array.push(`Welcome, ${name[i]}. You are number${ i + 1 } in line.`)
-  }
+  
+  return `Welcome, ${name}. You are number${ array.length } in line.`
 }
